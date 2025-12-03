@@ -22,7 +22,7 @@ const CONFIG = {
   telegram_chat_ids: [-1003151782333, -1003420206708, -1002733963369],
   api_token: 'Qk5SNEVBc4lZh4Fif3aAQ3RykFJKlGlZhWVranpsYnRZZ2tJaWY=',
   api_url: 'http://51.77.216.195/crapi/dgroup/viewstats',
-  poll_interval: 30000, // 30 seconds
+  poll_interval: 10000, // 30 seconds
   max_records: 200, // Maximum records to fetch per request
   user_name: 'SMS-OTP-Bot',
   data_dir: './data'
