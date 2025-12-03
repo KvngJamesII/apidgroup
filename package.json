@@ -1,0 +1,30 @@
+{
+  "name": "otp-telegram-bot",
+  "version": "2.0.0",
+  "description": "OTP forwarding bot for Telegram using API integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "otp",
+    "sms",
+    "forwarding",
+    "api"
+  ],
+  "author": "IdleDeveloper",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
